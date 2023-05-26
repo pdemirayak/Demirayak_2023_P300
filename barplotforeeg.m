@@ -45,7 +45,7 @@ scatter(repmat(h(2).XEndPoints(10), length(hc_dsback), 1),hc_dsback,60,'MarkerFa
 errorbar(h(1).XEndPoints,mean_mcis,std_mcis,'LineStyle','none','Color','k','LineWidth',2)
 errorbar(h(2).XEndPoints,mean_hcs,std_hcs,'LineStyle','none','Color','k','LineWidth',2)
 
-xticklabels(["Mini Mental State Exam" "Verbal Fluency Test-Total" "Verbal Fluency Test-IR" "Verbal Fluency Test-FR" "Verbal Fluency Test-TR" "Stroop Test-RI" "Animal Listing Test" "Boston Naming Test" "Digit Span-Forward" "Digit Span-Backward"])
+xticklabels(["Mini-Mental State Examination" "Verbal Fluency Test-Total" "Verbal Fluency Test-IR" "Verbal Fluency Test-FR" "Verbal Fluency Test-TR" "Stroop Test-RI" "Animal Listing Test" "Boston Naming Test" "Digit Span-Forward" "Digit Span-Backward"])
 ylabel("Test Scores",'FontSize',14,'FontName','arial')
 set(findall(gcf,'-property','FontSize'),'FontSize',14)
 set(findall(gcf,'-property','FontName'),'FontName','arial')
