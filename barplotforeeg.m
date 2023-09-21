@@ -12,9 +12,9 @@ std_hcs=[std(hc_mmse);std(hc_sbst_total);std(hc_sbst_ir);std(hc_sbst_fr);std(hc_
 std_mcis=[std(mci_mmse);std(mci_sbst_total);std(mci_sbst_ir);std(mci_sbst_fr);std(mci_sbst_tr);std(mci_stroop);std(mci_animal);std(hc_bnt);std(mci_dsfor);std(mci_dsback)];
 h=bar(means_together);
 hold on
-redd=[0.64,0.08,0.18];bluee=[0,0.45,0.74];
+redd=[0.64,0.08,0.18];blackk=[0,0,0];
 h(1).FaceColor=redd;
-h(2).FaceColor=bluee;
+h(2).FaceColor=blackk;
 h(1).FaceAlpha=0.5;
 h(2).FaceAlpha=0.5;
 h(1).FaceAlpha=0.5;
